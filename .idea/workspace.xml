@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a5866834-ff2d-431c-bd90-4f8d371549f7" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/tests/tests_berlinclock.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/note.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/_BerlinClock.py" beforeDir="false" afterPath="$PROJECT_DIR$/_BerlinClock.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/_Palindromes.py" beforeDir="false" afterPath="$PROJECT_DIR$/_Palindromes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/tests.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_palindromes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/tests/tests_palindromes.py" beforeDir="false" afterPath="$PROJECT_DIR$/tests/tests_palindromes.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -46,10 +44,12 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="full.screen.before.presentation.mode" value="false" />
     <property name="ignore_missing_gitignore" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
@@ -68,7 +68,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.main">
+  <component name="RunManager" selected="Python tests.Unittests in tests_palindromes.py">
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="CodeDojo" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -206,8 +206,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python tests.Unittests in tests_palindromes.py" />
-        <item itemvalue="Python tests.Unittests for tests_berlinclock.TestIsBerlinTime" />
         <item itemvalue="Python tests.Unittests in tests_berlinclock.py" />
+        <item itemvalue="Python tests.Unittests for tests_berlinclock.TestIsBerlinTime" />
         <item itemvalue="Python.tests" />
         <item itemvalue="Python tests.Unittests for tests.tests_palindromes" />
       </list>
@@ -226,6 +226,7 @@
       <workItem from="1568833459457" duration="4124000" />
       <workItem from="1568838510737" duration="345000" />
       <workItem from="1568924658397" duration="16410000" />
+      <workItem from="1568993623428" duration="2583000" />
     </task>
     <servers />
   </component>
@@ -237,19 +238,21 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CodeDojo$main.coverage" NAME="main Coverage Results" MODIFIED="1568990694502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CodeDojo$main.coverage" NAME="main Coverage Results" MODIFIED="1568995392412" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CodeDojo$Unittests_for_tests_tests.coverage" NAME="Unittests for tests.tests Coverage Results" MODIFIED="1568837284949" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CodeDojo$Unittests_in_tests_py.coverage" NAME="Unittests in tests.py Coverage Results" MODIFIED="1568838367202" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CodeDojo$Unittests_for_tests_PalindromeTests.coverage" NAME="Unittests for tests.PalindromeTests Coverage Results" MODIFIED="1568837151656" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/CodeDojo$Unittests_for_tests_berlinclock_TestIsBerlinTime.coverage" NAME="Unittests for tests_berlinclock.TestIsBerlinTime Coverage Results" MODIFIED="1568989503808" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
-    <SUITE FILE_PATH="coverage/CodeDojo$Unittests_in_tests_palindromes_py.coverage" NAME="Unittests in tests_palindromes.py Coverage Results" MODIFIED="1568989527972" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/CodeDojo$Unittests_in_tests_berlinclock_py.coverage" NAME="Unittests in tests_berlinclock.py Coverage Results" MODIFIED="1568989219861" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
+    <SUITE FILE_PATH="coverage/CodeDojo$Unittests_in_tests_palindromes_py.coverage" NAME="Unittests in tests_palindromes.py Coverage Results" MODIFIED="1568995514244" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/CodeDojo$Unittests_in_tests_berlinclock_py.coverage" NAME="Unittests in tests_berlinclock.py Coverage Results" MODIFIED="1568995379427" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/tests" />
   </component>
 </project>

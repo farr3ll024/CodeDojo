@@ -1,0 +1,6 @@
+-- TDD Strategy --
+1. Create interface
+2. Create empty class that implements interface
+3. Create unit tests
+4. All tests fail
+5. Update class until all tests pass

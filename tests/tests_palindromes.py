@@ -7,7 +7,7 @@ class TestIsPalindrome(unittest.TestCase):
     def test_is_palindrome_true(self):
         self.assertTrue(_palindromes("rotator"))
         self.assertTrue(_palindromes("civic"))
-        # self.assertTrue(_palindromes(userinput=input("input palindrome: ")))
+        self.assertTrue(_palindromes(userinput=input("input palindrome: ")))
 
     def test_is_palindrome_false(self):
         self.assertFalse(_palindromes("hello"))
